@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [released]
 
+## [1.0.2] - 2026-02-27
+
+### Changed
+- Extended Laravel framework support to include Laravel 12
+- Extended PHP version support to include PHP 8.2 and 8.3
+- Updated illuminate/support dependency to support Laravel 12
+- Updated orchestra/testbench to support Laravel 12 testing
+- Updated Pest PHP to support version 3.x
+- Updated PHPUnit to support version 11.x
+
+### Fixed
+- Composer dependency resolution for Laravel 12 projects
+
+## [1.0.1] - 2026-02-27
+
+### Changed
+- Updated package dependencies for better compatibility
+
 ## [1.0.0] - 2026-02-27
 
 ### Added
@@ -139,5 +157,7 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 
 ---
 
-[Unreleased]: https://github.com/erdikoroglu/laravel-ai-content-generator/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/erdikoroglu/laravel-ai-content-generator/compare/v1.0.2...HEAD
+[1.0.2]: https://github.com/erdikoroglu/laravel-ai-content-generator/compare/v1.0.1...v1.0.2
+[1.0.1]: https://github.com/erdikoroglu/laravel-ai-content-generator/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/erdikoroglu/laravel-ai-content-generator/releases/tag/v1.0.0
