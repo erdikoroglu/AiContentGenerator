@@ -1,0 +1,69 @@
+{
+    "name": "erdikoroglu/laravel-ai-content-generator",
+    "description": "Laravel AI Content Generator - Multi-provider AI integration for SEO-optimized, E-E-A-T compliant blog content generation",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "ai",
+        "content-generator",
+        "seo",
+        "openai",
+        "moonshot",
+        "google-ai",
+        "blog",
+        "e-e-a-t"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erdi Koroglu",
+            "email": "erdi@example.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^10.0|^11.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "illuminate/support": "^10.0|^11.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0",
+        "pestphp/pest": "^2.0",
+        "pestphp/pest-plugin-laravel": "^2.0",
+        "mockery/mockery": "^1.5",
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ErdiKoroglu\\AIContentGenerator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ErdiKoroglu\\AIContentGenerator\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ErdiKoroglu\\AIContentGenerator\\AIContentGeneratorServiceProvider"
+            ],
+            "aliases": {
+                "AIContentGenerator": "ErdiKoroglu\\AIContentGenerator\\Facades\\AIContentGenerator"
+            }
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
