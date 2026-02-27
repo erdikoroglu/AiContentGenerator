@@ -496,7 +496,7 @@ Contributions are welcome! Please follow these guidelines:
 
 ## Security
 
-If you discover any security-related issues, please email security@example.com instead of using the issue tracker.
+If you discover any security-related issues, please email security@w3.net.tr instead of using the issue tracker.
 
 ## Credits
 
@@ -513,6 +513,6 @@ Please see [CHANGELOG.md](CHANGELOG.md) for recent changes and version history.
 
 ## Support
 
-- **Documentation**: [https://github.com/erdikoroglu/laravel-ai-content-generator](https://github.com/erdikoroglu/laravel-ai-content-generator)
-- **Issues**: [GitHub Issues](https://github.com/erdikoroglu/laravel-ai-content-generator/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/erdikoroglu/laravel-ai-content-generator/discussions)
+- **Documentation**: [https://github.com/erdikoroglu/AiContentGenerator](https://github.com/erdikoroglu/AiContentGenerator)
+- **Issues**: [GitHub Issues](https://github.com/erdikoroglu/AiContentGenerator/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/erdikoroglu/AiContentGenerator/discussions)
