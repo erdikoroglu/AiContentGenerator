@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.0.0] - 2024-01-15
+## [1.0.0] - 2026-02-27
 
 ### Added
 
@@ -126,7 +126,7 @@ None - this is the initial release.
 
 ## Known Issues
 
-None at this time. Please report issues at: https://github.com/erdikoroglu/laravel-ai-content-generator/issues
+None at this time. Please report issues at: https://github.com/erdikoroglu/AiContentGenerator/issues
 
 ## Credits
 
